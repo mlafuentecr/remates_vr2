@@ -1,0 +1,92 @@
+# WordPress Core
+/wp-admin/
+/wp-includes/
+*.log
+*.sql
+*.sqlite
+
+# Sensitive Files
+wp-config.php
+
+# Common backup files
+*.bak
+*.orig
+*.save
+*.swp
+*.swo
+*.tmp
+*.old
+
+# WordPress Plugins and Themes
+wp-content/plugins/*
+wp-content/themes/*
+
+# But Keep your custom plugins and themes
+!wp-content/plugins/your-custom-plugin/
+!wp-content/themes/your-custom-theme/
+
+# Exclude all uploads
+wp-content/uploads/
+
+# If you want to include specific files or folders within uploads
+# Uncomment the line below and specify the paths
+# !wp-content/uploads/path-to-include/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Composer dependencies
+/vendor/
+
+# Node dependencies
+/node_modules/
+
+# Cache
+cache/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/backups/
+
+# WP Engine specific
+.wpengine/
+
+# Jetpack specific
+wp-content/plugins/jetpack/_inc/build/
+
+# Misc
+.sass-cache/
+*.log
+*.seed
+*.pid
+*.pid.lock
+*.coverdata
+*.nfs*
+*.swp
+
+# PHPStorm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Dreamweaver
+/_notes/
+
+# SFTP configuration file
+.sftp-config.json
+
+# IDE files
+*.komodoproject
+*.htaccess.swp
+*.htaccess.swo
+*.htaccess.bak
+*.htaccess.save
+*.htaccess.backup
+*.htaccess.tmp
