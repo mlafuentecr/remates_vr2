@@ -1,0 +1,31 @@
+#navbar-top {
+	&.hidden {
+		.menu {
+			display: none;
+		}
+	}
+	.menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-end;
+		align-content: flex-end;
+		flex: 1;
+		max-width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 40px;
+	}
+	.page_item {
+		display: inline-block;
+		a {
+			color: rgb(0, 0, 0);
+			text-decoration: none;
+			padding: 10px;
+			&:hover {
+				color: white;
+				background-color: rgb(38, 219, 1);
+			}
+		}
+	}
+}

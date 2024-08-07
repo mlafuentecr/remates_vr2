@@ -19,7 +19,7 @@ wp-config.php
 
 # WordPress Plugins and Themes
 wp-content/plugins/*
-wp-content/themes/*
+!wp-content/themes/*
 
 # But Keep your custom plugins and themes
 !wp-content/plugins/your-custom-plugin/
